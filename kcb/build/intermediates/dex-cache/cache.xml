@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d0c0b5e2bbc0bed54cc160d342f05820e8eccac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_afa36a2514718db7887b88bd8821c94fce30174a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_5ab43342e19e97b60171ae7c97088e13facc06d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_766a8e8d305b678f88d31f7e9481dd8d433ea640.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_e64ea3e884567fa5be37b8e62a206471e96a7851.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_15649c7af071b18a27df013e8b07c44472329eb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_58be16d41e8c9f251bf57b467bc222108688b38b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_e55daa5f8322c6aad5d53367fb73bdbb7b759d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b09aabd46687cf2afa4eea1b2aa044337ba10a41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\libs\jsoup-1.11.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e92361cd474050588ac4d9b982613e87e32cd76">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\jsoup-1.11.3_2c59bd50311e309d2e8b8f50a9c69a19eabf6b86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_6242ba58d31cb32a2e9829bb778fdc255ee01d58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_fa3636464f935509442a6ead96d4beb4fda6302d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_31caaf3d686f3ed007f389b6a28401c613a6c360.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_9a1edcb4a890fe4d12d1b762a206abb4c9417439.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_fa876bc22cf618e749d59167e0aaf107f269dd55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\SDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_e24e52dde355e60f7c5353488e877394bd162afe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_9ecf96e0b8d40d76f5e7f498bfa2b0ac0d722326.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_ad8e04923b4b9f5229a60c85ccd60210b3fff410.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5392cfdce40baee25f1b95d80898a29159570d47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_2a1bb19d70bd9cab5ae1f0a73eef28f1c77fc4f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_79fccf3225f835892a8fa5ba73f29ab9c46d8f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android_Studio\wenjian\kcb\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Android_Studio\wenjian\kcb\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_0c6b445eb612f9b4ca9392534f8cc113db93dc57.jar" />
+    </item>
+
+</items>
