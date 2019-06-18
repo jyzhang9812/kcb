@@ -49,11 +49,11 @@ SimpleDateFormat获取年月日信息，Calendar.DAY_OF_WEEK获取星期几的�
 在activity_update_course.xml中，实现课程详情的布局，比如文字前的图标，不同的文字颜色等。在MainActivity中，监听点击事件，通过Intent.putExtra将此时被点击的课程的相关信息传递给MessageCourseActivity，获取信息后，通过TextView.setText实现对布局文件中相应显示内容的替换，从而使得点击后可以显示出相应的课程信息。其中，由于用户键入的是数字的星期数信息，为了提高课程详情界面的友好性，在MessageCourseActivity中添加getDayString(int day)方法，将数据库中存储的数字星期数（如2）转化为文字星期（如二）数后再进行输出。
 在点击单双周后，相应的类文件通过执行对数据库存储的week信息的判断语句，进行数据的筛选，之后使用筛选出的数据进行单双周视图的加载。在相应的活动中，也设置了点击事件监听，使得可以通过点击课程，得到课程详情的显示。     
  <center>
-  <img src="images/1.jpg" width="25%" height="25%" />
+  <img src="images/7.jpg" width="25%" height="25%" />
   Figure 7. 侧边栏选择单双周
 </center>
 <center>
-  <img src="images/1.jpg" width="25%" height="25%" />
+  <img src="images/8.jpg" width="25%" height="25%" />
   Figure 8. 单周课程展示
 </center>
 
