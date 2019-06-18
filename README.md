@@ -31,18 +31,18 @@ SimpleDateFormat获取年月日信息，Calendar.DAY_OF_WEEK获取星期几的�
 在主页面中，点击任意空白区域，即可弹出“新建课程”界面。也在侧滑菜单中，点击“添加”，进入课程添加界面。在“新建课程”界面中，用户可进行单双周的选择以及课程其他信息的输入。输入完毕后，点击“完成”，即完成了一次课程的添加，此时，课程会实时显示在首页课程界面中。若是误触导致进入添加界面，也可通过点下方“X”号退出。
 通过ArrayAdapter（数组适配器）与Spinner相结合，在添加课程的布局中实现单双周的下拉列表显示，再结合点击事件，在用户点击“完成”按钮后，若是所有信息输入无误，则这些添加的数据将被传到数据库，再通过putExtra实现AddCourseActivity与MainActivity间的课程信息传递。课程信息传递后，在MainActivity中创建课程表视图，实现新添加的课程信息的实时显示。其中，单个课程布局的高度是根据课程时间差值计算得到。若是信息填写出错或是基本信息未填写完整，通过Toast对用户的不合法信息输入进行提示。
 <div display="flex" flex-direction="row">
-<div display="flex" flex-direction="column">
-  <img src="images/4.jpg" width="25%" height="25%" />
-  Figure 4. 选择单双周
-</div>
-<div display="flex" flex-direction="column">
-  <img src="images/5.jpg" width="25%" height="25%" />
-  Figure 5. 添加课程
-</div>
-<div display="flex" flex-direction="column">
-  <img src="images/6.jpg" width="25%" height="25%" />
-  Figure 6. 查看课程
-</div>
+  <div display="flex" flex-direction="column">
+    <img src="images/4.jpg" width="25%" height="25%" />
+    <p>Figure 4. 选择单双周</p>
+  </div>
+  <div display="flex" flex-direction="column">
+    <img src="images/5.jpg" width="25%" height="25%" />
+    <p>Figure 5. 添加课程</p>
+  </div>
+  <div display="flex" flex-direction="column">
+    <img src="images/6.jpg" width="25%" height="25%" />
+    <p>Figure 6. 查看课程</p>
+  </div>
 </div>
 
 #### 查看课程
@@ -50,14 +50,14 @@ SimpleDateFormat获取年月日信息，Calendar.DAY_OF_WEEK获取星期几的�
 在activity_update_course.xml中，实现课程详情的布局，比如文字前的图标，不同的文字颜色等。在MainActivity中，监听点击事件，通过Intent.putExtra将此时被点击的课程的相关信息传递给MessageCourseActivity，获取信息后，通过TextView.setText实现对布局文件中相应显示内容的替换，从而使得点击后可以显示出相应的课程信息。其中，由于用户键入的是数字的星期数信息，为了提高课程详情界面的友好性，在MessageCourseActivity中添加getDayString(int day)方法，将数据库中存储的数字星期数（如2）转化为文字星期（如二）数后再进行输出。
 在点击单双周后，相应的类文件通过执行对数据库存储的week信息的判断语句，进行数据的筛选，之后使用筛选出的数据进行单双周视图的加载。在相应的活动中，也设置了点击事件监听，使得可以通过点击课程，得到课程详情的显示。     
 <div display="flex" flex-direction="row">
- <div display="flex" flex-direction="column">
+  <div display="flex" flex-direction="column">
   <img src="images/7.jpg" width="25%" height="25%" />
-  Figure 7. 侧边栏选择单双周
-</div>
-<div display="flex" flex-direction="column">
-  <img src="images/8.jpg" width="25%" height="25%" />
-  Figure 8. 单周课程展示
-</div>
+  <p>Figure 7. 侧边栏选择单双周</p>
+  </div>
+  <div display="flex" flex-direction="column">
+    <img src="images/8.jpg" width="25%" height="25%" />
+    <p>Figure 8. 单周课程展示</p>
+  </div>
 </div>
 
 #### 删除课程
@@ -71,15 +71,15 @@ SimpleDateFormat获取年月日信息，Calendar.DAY_OF_WEEK获取星期几的�
 <div display="flex" flex-direction="row">
   <div display="flex" flex-direction="column">
     <img src="images/9.png" width="25%" height="25%" />
-    Figure 9. 选择更换方式
+    <p></p>Figure 9. 选择更换方式</p>
   </div>
   <div display="flex" flex-direction="column">
     <img src="images/10.png" width="25%" height="25%" />
-    Figure 10. 剪裁
+    <p>Figure 10. 剪裁</p>
   </div>
   <div display="flex" flex-direction="column">
     <img src="images/11.jpg" width="25%" height="25%" />
-    Figure 11. 成功更换头像
+    <p>Figure 11. 成功更换头像</p>
   </div>
 </div>
 
