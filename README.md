@@ -12,7 +12,7 @@
 进入程序后，首页面即为课程表界面，一周课程尽在眼前。
 在drawable中，定义课程格子的颜色、形状。在MainActivity中，将其存储为数组形式，在创建课程视图时，以随机数的形式进行调用，所以每次打开应用，就会显示出新的课程格子颜色。
 <center>
-  <img src="images/2.jpg" width="25%" height="25%" />
+  <img src="images/2.png" width="25%" height="25%" />
   Figure 2. app主界面
 </center>
  
@@ -65,18 +65,14 @@ SimpleDateFormat获取年月日信息，Calendar.DAY_OF_WEEK获取星期几的�
 点击菜单栏处的头像，出现选择头像方式的弹出框，从相册选好图片或者拍摄好照片后，可进行图像的缩放与裁剪（见图 14），点击“√”后，新的头像便会出现在菜单栏中。
 由于菜单栏的实现在MainActivity里，所以将更换头像的方法也全部写在了这个Java文件中。在点击头像时，触发onClick事件，从而调用showTypeDialog()方法，弹出选择框后，点击不同选项，触发不同的点击事件。无论点击哪个按钮，都会最终进入裁剪图片的步骤，在该步骤中，通过Intent intent = new Intent("com.android.camera.action.CROP")，调用系统自带的图片裁切功能，裁剪后，调用Bitmap.compress()对图像进行压缩处理后存储，之后，调用setImageBitmap将存储好的图像显示在对应的CircleImageView中。
 在实现该功能时，要让使用者的手机为该APP开启存储、相机权限，所以在AndroidManifest.xml中，要添加相应的<uses-permission>语句。
-<center>
-  <img src="images/9.jpg" width="25%" height="25%" />
+<div display="flex" flex-direction="row">
+  <img src="images/9.png" width="25%" height="25%" />
   Figure 9. 选择更换方式
-</center>
-<center>
-  <img src="images/10.jpg" width="25%" height="25%" />
-  Figure 10. 剪裁
-</center>
-<center>
-  <img src="images/11.jpg" width="25%" height="25%" />
-  Figure 11. 成功更换头像
-</center>
+    <img src="images/10.png" width="25%" height="25%" />
+    Figure 10. 剪裁
+    <img src="images/11.jpg" width="25%" height="25%" />
+    Figure 11. 成功更换头像
+</div>
 
 #### 登录&验证码的获取
 点击菜单栏处的“导入”，可进入学号登录页面，用户输入教务系统的学号、密码后，便可实现自动导入课表的功能，不必再一个个手动录入。但是在爬虫时，虽然已经实现了动态获取验证码，但是仍无法登入教务系统，于是止步于爬取验证码的阶段。
